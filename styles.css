@@ -1,2 +1,6 @@
-
-/* Your CSS Code here. */
+.holder {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 100px);
+    gap: 10px; /* Optional: Adds spacing between grid items */
+}
